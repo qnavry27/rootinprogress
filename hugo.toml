@@ -1,4 +1,82 @@
-baseURL = 'https://rootinprogress.dev/'
-languageCode = 'en-us'
-title = 'RootInProgress'
+baseURL = "https://rootinprogress.dev/"
+languageCode = "en-us"
+title = "Root in Progress"
 theme = "PaperMod"
+paginate = 10
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+[params]
+  author = "qnavry"
+  description = "A cybersecurity blog covering pentesting, CTFs, tools, and the road to OSCP."
+  defaultTheme = "dark"           # dark by default, user can toggle
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true      # copy button on all code blocks
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = false
+  UseHugoToc = true               # table of contents
+  disableScrollToTop = false
+  comments = false                # set to true when you add Giscus
+
+  [params.homeInfoParams]
+    Title = "RootinProgress"
+
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 2
+    keys = ["title", "permalink", "summary", "content"]
+
+[menu]
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 25
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+    weight = 25
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 25
+  [[menu.main]]
+    identifier = "cheatsheets"
+    name = "Cheatsheets"
+    url = "/cheatsheets/"
+    weight = 25
+  [[menu.main]]
+    identifier = "DeepDive"
+    name = "Deep Dives"
+    url = "/deepdive/"
+    weight = 25
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = "series"
+
+[markup]
+  [markup.highlight]
+    noClasses = false             # required for proper syntax highlighting
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true               # allows raw HTML in posts if needed
+
+[outputs]
+  home = ["HTML", "JSON"] # JSON required for search

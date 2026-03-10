@@ -43,27 +43,32 @@ buildFuture = false
     identifier = "tags"
     name = "Tags"
     url = "/tags/"
-    weight = 10
+    weight = 90
   [[menu.main]]
     identifier = "search"
     name = "Search"
     url = "/search/"
-    weight = 20
+    weight = 10
   [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 30
+    weight = 100
   [[menu.main]]
     identifier = "cheatsheets"
     name = "Cheatsheets"
     url = "/cheatsheets/"
-    weight = 40
+    weight = 20
   [[menu.main]]
     identifier = "DeepDive"
     name = "Deep Dives"
     url = "/deepdive/"
-    weight = 50
+    weight = 30
+  [[menu.main]]
+    identifier ="CTFs"
+    name = "CTFs"
+    url = "/writeups/"
+    weight = 40
 
 [taxonomies]
   tag = "tags"

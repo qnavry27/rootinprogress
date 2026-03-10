@@ -25,6 +25,7 @@ buildFuture = false
   UseHugoToc = true               # table of contents
   disableScrollToTop = false
   comments = true                # set to true when you add Giscus
+  hidemeta = false
 
   [params.homeInfoParams]
     Title = "RootinProgress"
@@ -43,22 +44,22 @@ buildFuture = false
     identifier = "tags"
     name = "Tags"
     url = "/tags/"
-    weight = 90
+    weight = 50
   [[menu.main]]
     identifier = "search"
     name = "Search"
     url = "/search/"
-    weight = 10
+    weight = 60
   [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 100
+    weight = 70
   [[menu.main]]
     identifier = "cheatsheets"
     name = "Cheatsheets"
     url = "/cheatsheets/"
-    weight = 20
+    weight = 10
   [[menu.main]]
     identifier = "DeepDive"
     name = "Deep Dives"
@@ -68,6 +69,11 @@ buildFuture = false
     identifier ="CTFs"
     name = "CTFs"
     url = "/writeups/"
+    weight = 20
+  [[menu.main]]
+    identifier = "archives"
+    name = "Archives"
+    url = "/archives/"
     weight = 40
 
 [taxonomies]

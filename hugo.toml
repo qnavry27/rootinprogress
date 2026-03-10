@@ -2,7 +2,6 @@ baseURL = "https://rootinprogress.dev/"
 languageCode = "en-us"
 title = "Root in Progress"
 theme = "PaperMod"
-paginate = 10
 enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false

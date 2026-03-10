@@ -24,7 +24,7 @@ buildFuture = false
   ShowRssButtonInSectionTermList = false
   UseHugoToc = true               # table of contents
   disableScrollToTop = false
-  comments = false                # set to true when you add Giscus
+  comments = true                # set to true when you add Giscus
 
   [params.homeInfoParams]
     Title = "RootinProgress"

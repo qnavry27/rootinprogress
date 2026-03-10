@@ -43,27 +43,27 @@ buildFuture = false
     identifier = "tags"
     name = "Tags"
     url = "/tags/"
-    weight = 25
+    weight = 10
   [[menu.main]]
     identifier = "search"
     name = "Search"
     url = "/search/"
-    weight = 25
+    weight = 20
   [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 25
+    weight = 30
   [[menu.main]]
     identifier = "cheatsheets"
     name = "Cheatsheets"
     url = "/cheatsheets/"
-    weight = 25
+    weight = 40
   [[menu.main]]
     identifier = "DeepDive"
     name = "Deep Dives"
     url = "/deepdive/"
-    weight = 25
+    weight = 50
 
 [taxonomies]
   tag = "tags"
@@ -78,7 +78,7 @@ buildFuture = false
       unsafe = true               # allows raw HTML in posts if needed
 
 [outputs]
-  home = ["HTML", "JSON"] # JSON required for search
+  home = ["HTML", "RSS", "JSON"] # JSON required for search
 
 [pagination]
   pagerSize = 10

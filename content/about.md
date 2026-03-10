@@ -4,12 +4,11 @@ layout: "single"
 draft: false
 ---
 
-Hey, I'm qnavry — a cybersecurity professional transitioning into penetration testing.
+Hi there,
 
-This blog documents my journey: CTF writeups, tool deep-dives, OSCP prep notes, and anything else I find interesting along the way.
+I'm qnavry and I welcome you to my blog!
+Let's keep it short:
 
-## Skills & Interests
-- Network security & pentesting
-- Active Directory attacks
-- CTF challenges
-- Road to OSCP
+This blog documents my interests in the cybersecurity space, specifically the red side :)
+So, you will find CTF writeups, deepdives, Notes, and anything else I find interseting along the way.
+

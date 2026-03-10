@@ -80,3 +80,6 @@ buildFuture = false
 
 [outputs]
   home = ["HTML", "JSON"] # JSON required for search
+
+[pagination]
+  pagerSize = 10

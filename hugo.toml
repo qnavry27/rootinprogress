@@ -1,0 +1,4 @@
+baseURL = 'https://rootinprogress.dev/'
+languageCode = 'en-us'
+title = 'RootInProgress'
+theme = "PaperMod"

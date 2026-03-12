@@ -1,7 +1,7 @@
 ---
 title: "CTF Name - Machine/Challenge Name"
 date: 2026-03-10
-draft: false
+draft: true
 description: "Writeup for Machine/Challenge Name on CTF Platform. Covers enumeration, exploitation and privilege escalation."
 tags: ["ctf", "hackthebox", "linux", "easy"]
 categories: ["CTF"]
